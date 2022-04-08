@@ -1,0 +1,118 @@
+---
+---
+@import "main";
+
+.root{
+
+}
+
+.nav {
+ max-width: 45em;
+ margin: 0 auto;
+}
+
+a{
+ font-family:Verdana,Sans-Serif;
+ text-decoration: none;
+ color: #007bff;
+}
+
+.nav a:hover{
+ text-decoration: underline;
+}
+
+.nav a.left_nav{
+ color: black;
+ float: left;
+  
+}
+
+.right_nav{
+ color: black;
+ float: right;
+}
+
+.nav a.right_link{
+ margin-left: 20px;
+ color: black;
+}
+
+a:hover{
+  color:orange;
+  //text-decoration: underline;
+}
+
+.content {
+ max-width: 45em;
+ margin: 0 auto;
+}
+
+#intro{
+  width:100%;
+	display:inline-block;
+	overflow:auto;
+}
+
+#info{
+  display: inline;
+}
+
+#name{
+	display:inline;
+	font-family: Verdana,Sans-Serif;
+	font-size: 36px;
+}
+
+p{
+  font-family: Verdana, Sans-Serif;
+  margin-bottom:0px;
+}
+
+p .top{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#patrick_pic{
+	height:12em;
+	width:12em;
+	float:right;
+
+	//border:3px solid black;
+}
+
+h2{
+  font-family: Verdana, Sans-Serif;
+	font-size: 30px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+tr.pub_row>td{
+  padding-bottom:1.5em;
+}
+
+.pub_text{
+  font-family: Verdana, Sans-Serif;
+  font-size:16px;
+  vertical-align: top;
+  padding-left:10px;
+  padding-bottom:1px;
+}
+
+.pub_img{
+
+}
+
+.no_top_margin{
+  margin-top:0px;
+}
+
+#long_authors{
+  font-size:14px;
+}
+
+//#about{
+//  display:inline-block;
+//  clear:both;
+//}

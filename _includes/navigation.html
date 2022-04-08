@@ -1,0 +1,13 @@
+<nav>
+ <a href="/" class="left_nav">
+  Patrick Lancaster
+ </a>
+ 
+ <div class="right_nav">
+  {% for item in site.data.navigation %}
+   <a href="#{{item.link}}" class="right_link">
+    {{ item.name }}
+   </a>
+  {% endfor %}
+ </div>
+</nav>

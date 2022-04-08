@@ -1,0 +1,5 @@
+- name: About
+  link: about
+
+- name: Publications
+  link: publications
