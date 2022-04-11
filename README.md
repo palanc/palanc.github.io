@@ -1,3 +1,5 @@
+Run 'jekyll serve' to launch website at http://localhost:4000
+
 .gif creation: The folowing are instructions for creating .gifs. Given a (1280x720) 30FPS .mp4:
 1. Use the following command to extract all image frames:
  ffmpeg -i <name>.mp4 ./<name>_frames%05d.png
